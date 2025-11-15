@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mang Juan's Bakery | Menu</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="brand">
+      <h1>MANG JUAN'S</h1>
+      <p class="tag">freshly baked, always</p>
+    </div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  
+  <section class="menu-banner">
+    <h2>YES! WE ARE OPEN</h2>
+    <p class="muted">Monday - Friday | 09:00 AM - 07:00 PM</p>
+    <p class="muted">123 wallstreet., New york City</p>
+  </section>
+
+  
+  <main class="content">
+    <h2 class="section-title">Our Menu</h2>
+
+    <div class="menu-grid">
+      <!-- MENU ITEM 1 -->
+      <article class="menu-item" data-name="Espresso" data-price="₹199"
+               data-full="A short, bold espresso — intense flavour and a thick crema.">
+        <img src="expresso.jpg" alt="Espresso image" class="menu-thumb" />
+        <div class="menu-meta">
+          <h3>Espresso</h3>
+          <p class="short">Strong, rich, pure.</p>
+          <span class="price">199 INR</span>
+        </div>
+      </article>
+
+      <!-- MENU ITEM 2 -->
+      <article class="menu-item" data-name="Latte" data-price="₹279"
+               data-full="Smooth steamed milk with a shot of our signature espresso — creamy and comforting.">
+        <img src="latte.jpg" alt="Latte image" class="menu-thumb" />
+        <div class="menu-meta">
+          <h3>Latte</h3>
+          <p class="short">Velvety, milky, mellow.</p>
+          <span class="price">279 INR</span>
+        </div>
+      </article>
+
+      <!-- MENU ITEM 3 -->
+      <article class="menu-item" data-name="Butter Croissant" data-price="₹149"
+               data-full="Flaky, golden layers of buttery croissant — freshly baked every hour.">
+        <img src="croissant.jpg" alt="Croissant image" class="menu-thumb" />
+        <div class="menu-meta">
+          <h3>Butter Croissant</h3>
+          <p class="short">Crisp, buttery, flaky.</p>
+          <span class="price">149 INR</span>
+        </div>
+      </article>
+
+      <!-- MENU ITEM 4 -->
+      <article class="menu-item" data-name="Hot chocolate" data-price="₹169"
+               data-full="A rich velvety cup of warmth chocolate topped with whipped cream.">
+        <img src="hotcholocate.jpg" alt="Hot chocolate img" class="menu-thumb" />
+        <div class="menu-meta">
+          <h3>Hot Chocolate</h3>
+          <p class="short">Chocolate,rich,velvety</p>
+          <span class="price">169 INR</span>
+        </div>
+      </article>
+
+      <!-- MENU ITEM 5 -->
+      <article class="menu-item" data-name="Vanilla cream donut" data-price="₹199"
+               data-full="A soft, golden donut with a creamy vanilla center,Light and sweet, perfect for a quick treat.
+Smooth filling that melts easily with each bite.
+A classic pick for anyone who loves gentle flavors.">
+        <img src="donut.jpg" alt="donut image" class="menu-thumb" />
+        <div class="menu-meta">
+          <h3>Vanilla cream donut</h3>
+          <p class="short">Crisp, buttery, creamy.</p>
+          <span class="price">199 INR</span>
+        </div>
+      </article>
+
+      
+      
+      <!-- MENU ITEM 6-->
+      <article class="menu-item" data-name="New york Bagel Bite" data-price="₹219"
+               data-full="Soft chewy little round of comfort with a gloden crust — freshly baked every hour.
+               Golden on the outside and soft inside.
+Perfect for quick snacking or dipping.
+A familiar, comforting taste in every bite.">
+        <img src="bagel.jpg" alt="bagel" class="menu-thumb" />
+        <div class="menu-meta">
+          <h3>New york Bagel Bite</h3>
+          <p class="short">Thick, crisp, creamy.</p>
+          <span class="price">219 INR</span>
+        </div>
+      </article>
+
+      <!-- MENU ITEM 7-->
+      <article class="menu-item" data-name="Cinnamon swiss roll" data-price="₹249"
+               data-full=" A warm spiraled treat layered with sweet cinnamon softness.The swirl gives a perfect mix of spice and sweetness.
+A comforting pick for anyone who loves cinnamon treats.">
+        <img src="cinammonswissroll.jpg" alt="cinammonswissroll" class="menu-thumb" />
+        <div class="menu-meta">
+          <h3>Cinnamon swiss roll</h3>
+          <p class="short">Thick, buttery,creamy.</p>
+          <span class="price">249 INR</span>
+        </div>
+      </article>
+
+
+      
+    </div>
+
+    <p class="note">* Tap / click any item for details & a larger image.</p>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 Mang Juan's Bakery</p>
+    <a class="back-home" href="index.html">← Back to Home</a>
+  </footer>
+  <div id="item-modal" class="modal" aria-hidden="true">
+    <div class="modal-inner">
+      <button id="modal-close" class="modal-close" aria-label="Close">✕</button>
+      <img id="modal-image" src="" alt="Large item image" />
+      <div class="modal-content">
+        <h3 id="modal-name"></h3>
+        <p id="modal-desc"></p>
+        <p id="modal-price" class="modal-price"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

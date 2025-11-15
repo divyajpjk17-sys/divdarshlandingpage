@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mang Juan's Bakery | Contact</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="brand">
+      <h1>MANG JUAN'S</h1>
+      <p class="tag">freshly baked, always</p>
+    </div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="content">
+    <h2>Contact Us</h2>
+
+    <section class="card contact-card">
+      <form id="contact-form" novalidate>
+        <label>
+          Name
+          <input type="text" name="name" id="name" placeholder="Your name" required />
+        </label>
+
+        <label>
+          Email
+          <input type="email" name="email" id="email" placeholder="you@example.com" required />
+        </label>
+
+        <label>
+          Message
+          <textarea name="message" id="message" rows="5" placeholder="Tell us something..." required></textarea>
+        </label>
+
+        <label>
+          Write a Review (optional)
+          <textarea name="review" id="review" rows="3" placeholder="Share your experience..."></textarea>
+        </label>
+
+        <div class="form-actions">
+          <button type="submit" class="btn">Send</button>
+          <button type="reset" class="btn btn-ghost">Reset</button>
+        </div>
+
+        <p class="form-note" id="form-note" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 Mang Juan's Bakery — We love hearing from you</p>
+    <a class="back-home" href="index.html">← Back to Home</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
