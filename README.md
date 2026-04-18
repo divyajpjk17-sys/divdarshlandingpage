@@ -7,7 +7,9 @@ This is a minimal, aesthetic, and responsive landing page designed for a coffee 
 Pages Included
 
 Home Page: Introduces the coffee shop with a clean and welcoming layout
+
 Menu Page: Displays coffee items and offerings in a structured, minimal design
+
 Contact Page: Provides a simple way for users to reach out to the coffee shop
 
 Features
