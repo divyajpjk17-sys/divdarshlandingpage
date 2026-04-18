@@ -22,6 +22,7 @@ Tech Stack
 
 HTML
 CSS
+Javascript
 
 Purpose
 
